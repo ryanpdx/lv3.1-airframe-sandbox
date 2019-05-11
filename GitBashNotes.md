@@ -1,6 +1,6 @@
-#Using Git Bash for the SolidWorks
+# Using Git Bash for the SolidWorks
 
-##setup
+## first time setup
 git clone to pull the repo
 git checkout -b branchname 
   - This creates a branch “dev_yourname” like “dev_joe” and switches you to that branch
@@ -8,7 +8,7 @@ git checkout -b branchname
   
 Now go make things, do work, etc
 
-##Once you’re ready to check in
+## Once you’re ready to check in
 - Fully save everything in solidworks - please do shutdown SolidWorks.
 git status
   - Shows what’s new, modified, etc. You’ll have red (modified and untracked), and changes ready to to commit are green.
@@ -24,7 +24,7 @@ git push
   - When you’re ready, do a git push, which saves your branch to the server.
 
 
-##Once you’re ready to merge with master
+## Once you’re ready to merge with master
 git checkout master
 git pull
 git checkout branchname
